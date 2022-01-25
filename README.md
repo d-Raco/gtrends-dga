@@ -1,2 +1,2 @@
 # gtrends-dga
- Domain Generation Algorithm used with Google Trends
+ Domain Generation Algorithm developed with Google Trends

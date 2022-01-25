@@ -48,7 +48,7 @@
 
  Pytrends _trending_searches()_ method returns the 20 most [trending Google searches](https://trends.google.com/trends/trendingsearches/daily?geo=US) in the US. Using the _pandas_ library, the result can be stored in a data frame.
 
- ![Google Trends](/img/Google Trends.png)
+ ![Google Trends](/img/GoogleTrends.png)
 
  Now, the next step is to transform these results into an index to pick words from the dictionary. This can be done by hashing the trend using md5 and then converting the hash from hexadecimal to integer. To change the domain generated every hour, I decided to concatenate the year, month, day and hour to the trend before hashing. I also concatenate a modifier, which will be discussed later. Then, this number is used as an index for the dictionary.
 

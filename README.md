@@ -1,3 +1,5 @@
+<p align="center"><a href="https://github.com/Rymond3/gtrends-dga"><img width="40%" src="img/gtrends-dga.png" /></a></p>
+
 # gtrends-dga
  Domain Generation Algorithm developed with Google Trends
 
